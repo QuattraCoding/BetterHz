@@ -1,2 +1,5 @@
-package org.example;public class Logistics {
+package org.example;
+
+public class Logistics {
+
 }
