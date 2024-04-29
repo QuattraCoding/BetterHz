@@ -10,9 +10,9 @@ public class Frequency implements Runnable{
     private byte[] buf;
     SourceDataLine sDataLine;
     AudioFormat audioFormat;
-    private String name;
+    private final String name;
     private final float frequency;
-    long timeToSleep;
+    private long timeToSleep;
 
     public Frequency (String name, float frequency ) {
         this.name = name;
